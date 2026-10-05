@@ -1,0 +1,20 @@
+{
+    "regression_target": "Next_Close",
+    "classification_target": "Target",
+    "classification_mapping": {
+        "0": "DOWN / SELL",
+        "1": "UP / BUY"
+    },
+    "regression_best_parameters": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "n_estimators": 50,
+        "subsample": 0.8
+    },
+    "classification_best_parameters": {
+        "learning_rate": 0.01,
+        "max_depth": 3,
+        "n_estimators": 50,
+        "subsample": 0.8
+    }
+}
